@@ -1,0 +1,23 @@
+.disruption{
+    text-align: center;
+
+    &__heading{
+        text-decoration: underline;
+        box-shadow: 1px 1px 7px rgb(0,0,0,0.3);
+    }
+
+    &__elements{
+        
+    }
+}
+
+ul {
+    list-style: none;
+
+}
+
+button{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 13%;
+}

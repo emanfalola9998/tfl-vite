@@ -1,0 +1,46 @@
+
+html, body {
+    height: 100%; /* Ensure the body takes up the full height of the viewport */
+    margin: 0; /* Remove default margin */
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    text-wrap: nowrap;
+    font-size: 10px;
+    height: 100%;
+    width: 100%;
+
+    &__image{
+        // width: 15%;
+        // height:auto;
+        border-right: 2px solid orange
+        
+    }    
+
+    &__heading{
+        align-self:center;
+        // border: 2px solid black 
+    }
+
+    &__nav{
+        display:flex;
+        flex-direction: row;
+        align-self:center;
+        margin: 10px;
+        color: blue; 
+        cursor: pointer;
+    
+        &-items{
+            margin-right: 10px;
+            color: blue;
+            text-decoration: underline; /* Add underline */
+        }
+        &nav-link:hover{
+            color: darkblue;
+        }
+    }
+}
